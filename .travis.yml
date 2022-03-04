@@ -1,0 +1,5 @@
+language: swift
+osx_image: xcode13.2 
+xcode_project: TourismApp.xcodeproj 
+xcode_scheme: TourismApp
+xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro
