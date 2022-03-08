@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF14328E27CE103600EF568A /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = FF14328D27CE103600EF568A /* Core */; };
-		FF14329027CE104400EF568A /* Tourism in Frameworks */ = {isa = PBXBuildFile; productRef = FF14328F27CE104400EF568A /* Tourism */; };
 		FF14329B27D07F7600EF568A /* Cleanse in Frameworks */ = {isa = PBXBuildFile; productRef = FF14329A27D07F7600EF568A /* Cleanse */; };
 		FF14329D27D0ADEF00EF568A /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF14329C27D0ADEF00EF568A /* AppComponent.swift */; };
 		FF1432A327D1EA7F00EF568A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1432A227D1EA7F00EF568A /* Router.swift */; };
 		FF7E821027D2441500B222CD /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E820F27D2441500B222CD /* Strings.swift */; };
+		FF831C7227D775DF00F0C843 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = FF831C7127D775DF00F0C843 /* Core */; };
+		FF831C7527D777D100F0C843 /* Tourism in Frameworks */ = {isa = PBXBuildFile; productRef = FF831C7427D777D100F0C843 /* Tourism */; };
 		FFFD3C6B27BD2CE1000EF55C /* TourismApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD3C6A27BD2CE1000EF55C /* TourismApp.swift */; };
 		FFFD3C6D27BD2CE1000EF55C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD3C6C27BD2CE1000EF55C /* ContentView.swift */; };
 		FFFD3C6F27BD2CE3000EF55C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFD3C6E27BD2CE3000EF55C /* Assets.xcassets */; };
@@ -36,8 +36,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FF14328A27CE082C00EF568A /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Core; path = Modules/Core; sourceTree = "<group>"; };
-		FF14328B27CE083200EF568A /* Tourism */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Tourism; path = Modules/Tourism; sourceTree = "<group>"; };
 		FF14329C27D0ADEF00EF568A /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
 		FF1432A227D1EA7F00EF568A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		FF7E820F27D2441500B222CD /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
@@ -64,10 +62,10 @@
 				FFFD3CCC27BD3901000EF55C /* RxCocoa in Frameworks */,
 				FFFD3C8327BD2DF7000EF55C /* SDWebImageSwiftUI in Frameworks */,
 				FFFD3C7F27BD2D4C000EF55C /* RealmSwift in Frameworks */,
+				FF831C7227D775DF00F0C843 /* Core in Frameworks */,
+				FF831C7527D777D100F0C843 /* Tourism in Frameworks */,
 				FFFD3C7D27BD2D4C000EF55C /* Realm in Frameworks */,
-				FF14329027CE104400EF568A /* Tourism in Frameworks */,
 				FFFD3C8627BD2E25000EF55C /* SwiftUIX in Frameworks */,
-				FF14328E27CE103600EF568A /* Core in Frameworks */,
 				FFFD3CDE27BE59FB000EF55C /* AlertToast in Frameworks */,
 				FFFD3C7A27BD2D1C000EF55C /* Alamofire in Frameworks */,
 				FFFD3CCE27BD3901000EF55C /* RxSwift in Frameworks */,
@@ -96,8 +94,6 @@
 		FFFD3C5E27BD2CE1000EF55C = {
 			isa = PBXGroup;
 			children = (
-				FF14328B27CE083200EF568A /* Tourism */,
-				FF14328A27CE082C00EF568A /* Core */,
 				FFFD3C6927BD2CE1000EF55C /* TourismApp */,
 				FFFD3C6827BD2CE1000EF55C /* Products */,
 				FF14328C27CE103600EF568A /* Frameworks */,
@@ -287,9 +283,9 @@
 				FFFD3CCB27BD3901000EF55C /* RxCocoa */,
 				FFFD3CCD27BD3901000EF55C /* RxSwift */,
 				FFFD3CDD27BE59FB000EF55C /* AlertToast */,
-				FF14328D27CE103600EF568A /* Core */,
-				FF14328F27CE104400EF568A /* Tourism */,
 				FF14329A27D07F7600EF568A /* Cleanse */,
+				FF831C7127D775DF00F0C843 /* Core */,
+				FF831C7427D777D100F0C843 /* Tourism */,
 			);
 			productName = TourismApp;
 			productReference = FFFD3C6727BD2CE1000EF55C /* TourismApp.app */;
@@ -327,6 +323,8 @@
 				FFFD3CCA27BD3901000EF55C /* XCRemoteSwiftPackageReference "RxSwift" */,
 				FFFD3CDC27BE59FB000EF55C /* XCRemoteSwiftPackageReference "AlertToast" */,
 				FF14329927D07F7600EF568A /* XCRemoteSwiftPackageReference "Cleanse" */,
+				FF831C6E27D771E100F0C843 /* XCRemoteSwiftPackageReference "Core" */,
+				FF831C7327D777D100F0C843 /* XCRemoteSwiftPackageReference "Tourism" */,
 			);
 			productRefGroup = FFFD3C6827BD2CE1000EF55C /* Products */;
 			projectDirPath = "";
@@ -579,6 +577,22 @@
 				minimumVersion = 4.0.0;
 			};
 		};
+		FF831C6E27D771E100F0C843 /* XCRemoteSwiftPackageReference "Core" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aripratom/Core";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		FF831C7327D777D100F0C843 /* XCRemoteSwiftPackageReference "Tourism" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aripratom/Tourism";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		FFFD3C7827BD2D1C000EF55C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
@@ -630,18 +644,20 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FF14328D27CE103600EF568A /* Core */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Core;
-		};
-		FF14328F27CE104400EF568A /* Tourism */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Tourism;
-		};
 		FF14329A27D07F7600EF568A /* Cleanse */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FF14329927D07F7600EF568A /* XCRemoteSwiftPackageReference "Cleanse" */;
 			productName = Cleanse;
+		};
+		FF831C7127D775DF00F0C843 /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF831C6E27D771E100F0C843 /* XCRemoteSwiftPackageReference "Core" */;
+			productName = Core;
+		};
+		FF831C7427D777D100F0C843 /* Tourism */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF831C7327D777D100F0C843 /* XCRemoteSwiftPackageReference "Tourism" */;
+			productName = Tourism;
 		};
 		FFFD3C7927BD2D1C000EF55C /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;

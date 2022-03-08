@@ -29,6 +29,15 @@
         }
       },
       {
+        "package": "Core",
+        "repositoryURL": "https://github.com/aripratom/Core",
+        "state": {
+          "branch": "main",
+          "revision": "583af7ed618e51e454b3edb9df123f08398e7b87",
+          "version": null
+        }
+      },
+      {
         "package": "Realm",
         "repositoryURL": "https://github.com/realm/realm-cocoa",
         "state": {
@@ -80,6 +89,15 @@
           "branch": null,
           "revision": "eb6a23fc4cc79545e40a8cf5c82119684750194f",
           "version": "0.1.1"
+        }
+      },
+      {
+        "package": "Tourism",
+        "repositoryURL": "https://github.com/aripratom/Tourism",
+        "state": {
+          "branch": "main",
+          "revision": "253bc1ed8cf46cd4bb23c0fecbcf89e7544a3a20",
+          "version": null
         }
       }
     ]
